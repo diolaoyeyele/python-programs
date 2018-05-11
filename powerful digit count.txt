@@ -1,0 +1,420 @@
+y = 0
+>>> y = 1
+>>> z = 2
+>>> def check(n):
+	while y < 100:
+		
+		if len(str(y**z):
+		       
+SyntaxError: invalid syntax
+>>> def check(n):
+	while y < 100:
+		
+		if len(str(y**n)) == 2:
+		       print('{} and {}'.format(y,n))
+		else:
+		       continue
+		y +=1
+
+		       
+>>> check(2)
+		       
+Traceback (most recent call last):
+  File "<pyshell#113>", line 1, in <module>
+    check(2)
+  File "<pyshell#112>", line 2, in check
+    while y < 100:
+UnboundLocalError: local variable 'y' referenced before assignment
+>>> y = 1
+		       
+>>> check(n)
+		       
+Traceback (most recent call last):
+  File "<pyshell#115>", line 1, in <module>
+    check(n)
+NameError: name 'n' is not defined
+>>> check(2)
+		       
+Traceback (most recent call last):
+  File "<pyshell#116>", line 1, in <module>
+    check(2)
+  File "<pyshell#112>", line 2, in check
+    while y < 100:
+UnboundLocalError: local variable 'y' referenced before assignment
+>>> def check(n):
+	y = 1
+	while y < 100:
+		
+		if len(str(y**n)) == 2:
+		       print('{} and {}'.format(y,n))
+		else:
+		       continue
+		y +=1
+
+		       
+>>> check(2)
+		       
+Traceback (most recent call last):
+  File "<pyshell#119>", line 1, in <module>
+    check(2)
+  File "<pyshell#118>", line 5, in check
+    if len(str(y**n)) == 2:
+KeyboardInterrupt
+>>> def check(n):
+	y = 1
+	while y < 100:
+		
+		if len(str(y**n)) == n:
+		       print('{} and {}'.format(y,n))
+		else:
+		       continue
+		y +=1
+
+		       
+>>> check(3)
+		       
+Traceback (most recent call last):
+  File "<pyshell#122>", line 1, in <module>
+    check(3)
+  File "<pyshell#121>", line 5, in check
+    if len(str(y**n)) == n:
+KeyboardInterrupt
+>>> def check(n):
+	y = 1
+	while y < 100:
+		
+		if len(str(y**n)) == n:
+		       print('{} and {}'.format(y,n))
+		elif len(str(y**n)) > n:
+		       break
+		else:
+		       continue
+		y +=1
+
+		       
+>>> check(2)
+		       
+Traceback (most recent call last):
+  File "<pyshell#125>", line 1, in <module>
+    check(2)
+  File "<pyshell#124>", line 7, in check
+    elif len(str(y**n)) > n:
+KeyboardInterrupt
+>>> def check(n):
+	y = 1
+	while y < 3:
+		
+		if len(str(y**n)) == n:
+		       print('{} and {}'.format(y,n))
+		elif len(str(y**n)) > n:
+		       break
+		else:
+		       continue
+		y +=1
+
+		       
+>>> check(2)
+		       
+Traceback (most recent call last):
+  File "<pyshell#128>", line 1, in <module>
+    check(2)
+  File "<pyshell#127>", line 5, in check
+    if len(str(y**n)) == n:
+KeyboardInterrupt
+>>> def check(n):
+	y = 1
+	while y < 100:
+		
+		if len(str(y**n)) == n:
+		       print('{} and {}'.format(y,n))
+		elif len(str(y**n)) > n:
+		       break
+		else:
+		       continue
+	y +=1
+
+		       
+>>> check(2)
+		       
+Traceback (most recent call last):
+  File "<pyshell#131>", line 1, in <module>
+    check(2)
+  File "<pyshell#130>", line 7, in check
+    elif len(str(y**n)) > n:
+KeyboardInterrupt
+>>> check(4)
+		       
+Traceback (most recent call last):
+  File "<pyshell#132>", line 1, in <module>
+    check(4)
+  File "<pyshell#130>", line 7, in check
+    elif len(str(y**n)) > n:
+KeyboardInterrupt
+>>> 5**2
+		       
+25
+>>> len(str(25)) == 2
+		       
+True
+
+>>> a = list(range(2, 2000000))
+		       
+>>> b = []
+		       
+>>> for item in a:
+	if len(str(item*2)) == item:
+		print(item)
+	elif len(str(item**2) > item:
+		 
+SyntaxError: invalid syntax
+>>> for item in a:
+	if len(str(item*2)) == item:
+		print(item)
+	elif len(str(item**2) > item:
+		 
+SyntaxError: invalid syntax
+>>> for item in a:
+	if len(str(item*2)) == item:
+		print(item)
+	elif len(str(item**2)) > item:
+		 break
+	else:
+		continue
+
+		 
+>>> for item in a:
+	if len(str(item*5)) == item:
+		print(item)
+	elif len(str(item**5)) > item:
+		 break
+	else:
+		continue
+
+		 
+2
+>>> for item in a:
+	if len(str(item*5)) == 5:
+		print(item)
+	elif len(str(item**5)) > 5:
+		 break
+	else:
+		continue
+
+		 
+>>> for item in a:
+	if len(str(item**5)) == 5:
+		print(item)
+	elif len(str(item**5)) > 5:
+		 break
+	else:
+		continue
+
+		 
+7
+8
+9
+>>> def check(n):
+	for item in a:
+	if len(str(item**n)) == n:
+		print(item)
+	elif len(str(item**n)) > n:
+		 break
+	else:
+		continue
+		 
+SyntaxError: expected an indented block
+def check(n):
+	for item in a:
+	if len(str(item**n)) == n:
+		print(item)
+	elif len(str(item**n)) > n:
+		 break
+	else:
+		continue
+>>> def check(n):
+	for item in a:
+		if len(str(item**n)) == n:
+			print(item)
+		elif len(str(item**n)) > n:
+			 
+			 break
+		else:
+			 
+			 continue
+
+		 
+>>> check(9)
+		 
+8
+9
+>>> g = []
+		 
+>>> g = list(range(1,20))
+		 
+>>> for item in g:
+	check(item)
+
+		 
+2
+3
+4
+5
+6
+7
+8
+9
+4
+5
+6
+7
+8
+9
+5
+6
+7
+8
+9
+6
+7
+8
+9
+7
+8
+9
+7
+8
+9
+8
+9
+8
+9
+8
+9
+8
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+>>> def check(n):
+	for item in a:
+		if len(str(item**n)) == n:
+			print('{} and {}'.format(item, n))
+		elif len(str(item**n)) > n:
+			 
+			 break
+		else:
+			 
+			 continue
+
+		 
+>>> for item in g:
+	check(item)
+
+		 
+2 and 1
+3 and 1
+4 and 1
+5 and 1
+6 and 1
+7 and 1
+8 and 1
+9 and 1
+4 and 2
+5 and 2
+6 and 2
+7 and 2
+8 and 2
+9 and 2
+5 and 3
+6 and 3
+7 and 3
+8 and 3
+9 and 3
+6 and 4
+7 and 4
+8 and 4
+9 and 4
+7 and 5
+8 and 5
+9 and 5
+7 and 6
+8 and 6
+9 and 6
+8 and 7
+9 and 7
+8 and 8
+9 and 8
+8 and 9
+9 and 9
+8 and 10
+9 and 10
+9 and 11
+9 and 12
+9 and 13
+9 and 14
+9 and 15
+9 and 16
+9 and 17
+9 and 18
+9 and 19
+>>> g = list(range(1,40))
+		 
+>>> for item in g:
+	check(item)
+
+		 
+2 and 1
+3 and 1
+4 and 1
+5 and 1
+6 and 1
+7 and 1
+8 and 1
+9 and 1
+4 and 2
+5 and 2
+6 and 2
+7 and 2
+8 and 2
+9 and 2
+5 and 3
+6 and 3
+7 and 3
+8 and 3
+9 and 3
+6 and 4
+7 and 4
+8 and 4
+9 and 4
+7 and 5
+8 and 5
+9 and 5
+7 and 6
+8 and 6
+9 and 6
+8 and 7
+9 and 7
+8 and 8
+9 and 8
+8 and 9
+9 and 9
+8 and 10
+9 and 10
+9 and 11
+9 and 12
+9 and 13
+9 and 14
+9 and 15
+9 and 16
+9 and 17
+9 and 18
+9 and 19
+9 and 20
+9 and 21
+>>> 
